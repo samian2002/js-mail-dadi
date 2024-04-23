@@ -12,3 +12,6 @@ function dado() {
     const resultElement = document.getElementById('result');
     resultElement.textContent = 'Il numero ottenuto lanciando il dado è ' + dado + '.';
 
+    // Mostra il vincitore
+    resultElement.textContent += ' Quindi il vincitore è: ' + winner + '!';
+}
