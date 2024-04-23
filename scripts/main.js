@@ -8,3 +8,7 @@ function dado() {
     } else { 
       winner = 'Computer';
     }
+    // Mostra il risultato
+    const resultElement = document.getElementById('result');
+    resultElement.textContent = 'Il numero ottenuto lanciando il dado è ' + dado + '.';
+
