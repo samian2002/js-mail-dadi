@@ -20,9 +20,13 @@ for (let i = 0; i < mailAutorizzate.length; i++) {
 let messaggio = "";
 if (mailAutorizzate.includes(utenteMail)) {
     //Se utente autorizzato
-    messaggio = "Utente Autorizzato"
+    messaggio = "Utente Autorizzato";
 } else {
     //Se utente non autorizzato
-    messaggio = "Accesso Negato"
+    messaggio = "Accesso Negato";
 }
+
+//Stampa del messaggio 
+const esitoAccesso = document.getElementById("esitoAccesso");
+esitoAccesso.textContent = messaggio
 
