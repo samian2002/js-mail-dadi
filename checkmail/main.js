@@ -7,4 +7,6 @@ const mailInvitati = [
     'mario.balotelli@libero.it',
     'clarissa.verdi@gmail.com',
     'velentina.bianchi@yahoo.it'
-]
+];
+//Chiedo all'utente di inserire la sua mail
+const mailUtente = prompt('Inserisci la tua mail');
