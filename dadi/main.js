@@ -10,4 +10,6 @@ if (userNumber > pcNumber) {
     alert('Hai vinto!');
 } else if (userNumber < pcNumber) {
     alert('Hai perso!');
+} else {
+    alert('Pareggio!');
 }
