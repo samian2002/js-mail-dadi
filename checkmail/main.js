@@ -10,3 +10,11 @@ const mailInvitati = [
 ];
 //Chiedo all'utente di inserire la sua mail
 const mailUtente = prompt('Inserisci la tua mail');
+//Iniziallizzo una variabile booleana per verificare se la mail è presente nell'array
+let mailPresente = false;
+//Utilizzo un ciclo for per scorrere l'array e verificare se la mail è presente
+for (let i = 0; i < mailInvitati.length; i++) {
+    if (mailUtente === mailInvitati[i]) {
+        mailPresente = true;
+    }
+}
