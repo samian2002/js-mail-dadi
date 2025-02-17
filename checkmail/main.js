@@ -18,3 +18,9 @@ for (let i = 0; i < mailInvitati.length; i++) {
         mailPresente = true;
     }
 }
+//Stampo un messaggio all'utente in base alla presenza o meno della sua mail nell'array
+if (mailPresente) {
+    alert('La tua mail è presente nella lista degli invitati');
+} else {
+    alert('La tua mail non è presente nella lista degli invitati');
+}
